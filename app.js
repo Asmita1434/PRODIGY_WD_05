@@ -1,3 +1,4 @@
+
 APIKYE = 'c4b469446da64a62a7455412241903';
 
 
@@ -20,6 +21,7 @@ async function getData(KYE, cityName){
     const promise = await fetch(`https://api.weatherapi.com/v1/current.json?key=${KYE}&q=${cityName}&aqi=yes`);
     return await promise.json();
 }
+
 
 searchBtn.addEventListener('click', async ()=>{
     const input = cityInput.value;
