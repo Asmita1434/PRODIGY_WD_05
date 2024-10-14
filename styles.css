@@ -1,3 +1,4 @@
+
 body{
     padding: 0;
     margin: 0;
@@ -57,6 +58,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
+
 .title{
     text-align: center;
     color: #ffffff;
@@ -65,6 +67,7 @@ body{
     font-weight: bold;
     margin: 0;
 }
+
 .title span{
     color: #2e8cea;
 }
@@ -92,6 +95,7 @@ body{
     background: #043566;
     border-radius: 4px;
 }
+
 .tempCard{
     display: flex;
     flex-direction:row ;
@@ -106,6 +110,7 @@ body{
     margin: 0;
     font-size: 72px;
 }
+
 #sup{
     color: #fff;
 }
@@ -127,6 +132,7 @@ body{
     color: #ffffff;
     padding: 14px;
 }
+
 #countryName{
     background: #ec7805;
     font-size: 12px;
